@@ -1,0 +1,44 @@
+class Multas
+    {
+        public string DataMulta; 
+        public string Motorista;
+        public string CarroMulta;
+        public decimal MultaValor;
+
+        public void CadastrarMulta()
+        {
+
+        }
+    }
+	
+	
+class RelatorioCarro
+    {
+        public string EntradaCarro;
+        public string SaidaCarro;
+        public string Motorista;
+        public string Dia;
+        public decimal Hora;
+
+        public void CadastrarRelatorio()
+        {
+
+        }
+    }
+	
+
+class FechamentoMensal
+    {
+
+        public decimal TotalEntrada;
+        public decimal TotalSaida;
+        public decimal QtdCarros;
+        public decimal ValorLiquido;
+        public decimal ValorBruto;
+
+        public void CadastroFechamento()
+        {
+
+        }
+
+    }
